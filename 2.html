@@ -30,13 +30,36 @@
   a{
     color:black;
     text-decoration:none;
+    text-align:center;
   }
 
   h1{
+    text-align:center;
     padding:30px;
     margin:40;
     font-size:50px;
-    text-align: left;
+  }
+
+  ul{
+      text-align:center;
+  }
+
+
+  #grid{
+    display: grid;
+    padding : 10px;
+    margin : 10px;
+    font-size:20px;
+    text-align:left;
+  }
+
+  #title{
+    display: grid;
+    padding:10px;
+    margin: 20px;
+    font-size:20px ;
+    text-align:left;
+    grid-template-columns: 250px 1fr;
   }
 
 
@@ -47,61 +70,100 @@
 
     <a href="index.html"><h1> YANG DA EUN </h1></a>
 
-
-    <ul>
-      <a href="1.html" class="saw"><li>Contact </li></a>
-      <a href="2.html" class="saw" id="active"><li>Work</li></a>
-    </ul>
-
+      <div id="grid">
+        <div><a href="1.html" class="saw"> Contact </a></div>
+        <br>
+        <div><a href="2.html" class="saw" id="active"> <strong> Work </strong></a></div>
+      </div>
 
     <br><br>
 
-
-    <h3> Work </h3>
-
-    <p> 2020 Memorial Moments - Finland </p>
-    <img src="20201.jpg" width="700px" />
-    <p> 2020 Memorial Moments - The day </p>
-    <img src="20202.jpg" width="700px" />
+    <img src="20201.jpg" width="100%" />
+    <div id="title">
+    <span><strong>Finland </strong><br> 양다은 <br> 세라믹에 수금 / 가변설치<br>2019<br></span>
+    <span>핀란드의 공기와 바다</span>
+    </div>
 
 
-    <p> 2019 mobile  </p>
-    <img src="mobile.jpg" width="700px" />
-    <p> 2019 Light </p>
-    <img src="Light.jpg" width="700px" />
+    <img src="20202.jpg" width="100%" />
+    <div id="title">
+    <span><strong>A day</strong><br> 양다은 <br>세라믹에 수금 / 가변설치<br>2019<br> </span>
+    <span> </span>
+    </div>
 
+    <img src="mobile.jpg" width="100%" />
+    <div id="title">
+    <span><strong>Geobile</strong><br> 양다은 <br>믹스미디어 / 15x30x30(cm) <br> 2019 <br> </span>
+    <span> </span>
+    </div>
 
+    <img src="Light.jpg" width="100%" />
+    <div id="title">
+    <span><strong>Finlan</strong><br> 믹스미디어 / 가변설치 <br>2019 </span>
+    <span> </span>
+    </div>
 
-    <p> 2019 villige </p>
-    <img src="Franz_4.png" width="700px" />
+    <img src="Franz_4.png" width="100%" />
+    <div id="title">
+    <span><strong> Villige</strong><br> 세라믹과 수금 / 가변설치 <br> 2019 </span>
+    <span> </span>
+    </div>
 
+    <img src="solders1.jpg" width="100%" />
+    <div id="title">
+    <span>양다은, Soldiers</strong><br> 세라믹 / 가변설치 <br> 2017 </span>
+    <span> </span>
+    </div>
 
-    <p> 2017 Soldiers </p>
-    <img src="solders1.jpg" width="700px" />
-    <p> 2017 Soldiers </p>
-    <img src="solders2.jpg" width="700px" />
-    <p> 2017 Soldiers </p>
-    <img src="solders3.jpg" width="700px" />
+    <img src="solders2.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Soldiers</strong><br> 세라믹 / 가변설치<br>2017 </span>
+    <span> </span>
+    </div>
 
+    <img src="solders3.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Soldiers</strong><br> 세라믹 / 가변설치<br>2017 </span>
+    <span> </span>
+    </div>
 
-    <p> 2017 A glass </p>
-    <img src="DSC_3502.jpg" width="700px" />
+    <img src="DSC_3502.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Soldiers</strong><br> 세라믹 / 가변설치<br>2017</span>
+    <span> </span>
+    </div>
 
+    <img src="10.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Riot on an empty street</strong><br> 세라믹에 수금 / 가변설치<br>2017 </span>
+    <span> </span>
+    </div>
 
-    <p> 2017 Riot on an empty street 1 </p>
-    <img src="10.jpg" width="700px" />
-    <p> 2017 Riot on an empty street 2 </p>
-    <img src="3.jpg" width="700px" />
+    <img src="3.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Riot on an empty street</strong><br> 세라믹에 수금 / 가변설치<br>2017 </span>
+    <span> </span>
+    </div>
 
-    <p> 2017 Odorois </p>
-    <img src="09.jpg" width="700px" />
+    <img src="09.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Odorois</strong><br> 세라믹에 수금 / 15x4x15(cm)<br>2017 </span>
+    <span> </span>
+    </div>
 
-    <p> 2016 Chia gupta (the God of death path in India) </p>
-    <img src="head1.jpg" width="700px" />
-    <p> 2016 Caron (the God of death path in West) </p>
-    <img src="head2.jpg" width="700px" />
+    <img src="head1.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Caron (God of death)</strong><br> 세라믹 / 20x20x20(cm)<br>2016 </span>
+    <span> </span>
+    </div>
 
+    <img src="head2.jpg" width="100%" />
+    <div id="title">
+    <span><strong> Chia gupta (God of death in India)</strong> <br>세라믹 / 20x20x20(cm)<br>2016 </span>
+    <span> </span>
+    </div>
 
+    </div>
 
-  </ul></body>
+</ul></body>
 </html>
